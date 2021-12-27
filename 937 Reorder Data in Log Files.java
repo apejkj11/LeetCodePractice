@@ -10,9 +10,9 @@ class Solution {
 				String[] a = log1.split(' ', 2);
 				String[] b = log2.split(' ', 2);
 				//check contents is digit or not
-				boolean a1 = Character.isDigit(a[1].charAt(0), a2 = Character.isDigit(b[1].charAt(0));
+				boolean a1 = Character.isDigit(a[1].charAt(0), b1 = Character.isDigit(b[1].charAt(0));
 				//both contents are not digit
-				if(!a1 && !a2){
+				if(!a1 && !b1){
 					//check contents
 					int tmp = a[1].compareTo(b[1]);
 					if(tmp != 0) return tmp;
